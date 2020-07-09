@@ -112,5 +112,8 @@
 
    <!-- NightLight FOD -->
    <java-symbol type="bool" name="disable_fod_night_light"/>
+   
+    <!-- Whether device supports in-display fingerprint when screen is turned off -->
+    <java-symbol type="bool" name="config_supportsScreenOffInDisplayFingerprint" />
 
 </resources>

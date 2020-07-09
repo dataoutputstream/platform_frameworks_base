@@ -5654,6 +5654,13 @@ public final class Settings {
         public static final String FOD_NIGHT_LIGHT = "fod_night_light";
 
         /**
+         * Screen off fod
+         * @hide
+         */
+         
+        public static final String FOD_GESTURE = "fod_gesture";
+
+        /**
          * Set edge gesture Y dead zone
          * 0 - disabled - stock behavior - default
          * 1 - smaller top area of the screen
@@ -5661,6 +5668,7 @@ public final class Settings {
          * 3 - half top of the screen
          * @hide
          */
+         
         public static final String EDGE_GESTURE_Y_DEAD_ZONE = "edge_gesture_y_dead_zone";
 
         /**
@@ -5837,6 +5845,8 @@ public final class Settings {
             PRIVATE_SETTINGS.add(STATUSBAR_CLOCK_DATE_FORMAT);
             PRIVATE_SETTINGS.add(STATUSBAR_CLOCK_DATE_POSITION);
             PRIVATE_SETTINGS.add(CENTER_NOTIFICATION_HEADERS);
+            PRIVATE_SETTINGS.add(FOD_GESTURE);
+
         }
 
         /**
