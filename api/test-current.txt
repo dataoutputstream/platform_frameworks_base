@@ -1229,7 +1229,10 @@ package android.hardware.display {
     ctor public AmbientDisplayConfiguration(android.content.Context);
     method public boolean alwaysOnAvailable();
     method public boolean alwaysOnAvailableForUser(int);
+    method public boolean alwaysOnChargingEnabled(int);
     method public boolean alwaysOnEnabled(int);
+    method public boolean alwaysOnEnabledSetting(int);
+    field public static final String DOZE_NO_PROXIMITY_CHECK = "NoProximityCheck";
   }
 
   public final class BrightnessChangeEvent implements android.os.Parcelable {
