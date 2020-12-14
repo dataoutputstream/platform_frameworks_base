@@ -5648,12 +5648,6 @@ public final class Settings {
         public static final String FOD_ICON = "fod_icon";
 
         /**
-         * Screen off fod
-         * @hide
-         */
-        public static final String FOD_GESTURE = "fod_gesture";
-
-        /**
          * FOD night light
          * @hide
          */
